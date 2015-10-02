@@ -57,7 +57,7 @@ var Form = React.createClass({displayName: "Form",
   handlePasswordChange: function(event){
     var password = event.target.value;
     localStorage["password"] = password;
-    this.setState({desk: password});
+    this.setState({password: password});
     this.flashInfo();
     this.setDeskHash();
   },
