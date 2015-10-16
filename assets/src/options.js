@@ -22,7 +22,7 @@ var Form = React.createClass({
     var pods = {};
 
     if(data && data.pods){
-      for(podId in data.pods){
+      for(var podId in data.pods){
         pods[podId] = data.pods[podId].name;
       }
     }
@@ -89,7 +89,7 @@ var Form = React.createClass({
     var podOptions = [];
 
     if(this.state.cityId && this.state.pods){
-      for(podId in this.state.pods){
+      for(var podId in this.state.pods){
         podOptions.push(
           <option value={podId} key={podId}>{this.state.pods[podId]}</option>
         );

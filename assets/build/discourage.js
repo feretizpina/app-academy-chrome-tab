@@ -1,4 +1,6 @@
-var discourage = function(){
+"use strict";
+
+var discourage = function discourage() {
   var $html = $("<a href=\"https://developer.mozilla.org/en-US/docs/Web\">Dear student, App Academy strongly discourages using W3Schools. Instead use the links provided in your new tab page or do a search on MDN.</a>");
 
   $html.css({
@@ -22,6 +24,6 @@ var discourage = function(){
   $("body").prepend($html);
 };
 
-$(document).ready(function(){
+$(document).ready(function () {
   discourage();
 });

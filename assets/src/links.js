@@ -47,8 +47,8 @@ Links.main = [
         start: 54
       },
       {
-        title: "Backbone",
-        url: "https://github.com/appacademy/backbone-curriculum/blob/master/README.md",
+        title: "React",
+        url: "https://github.com/appacademy/react-flux-curriculum/blob/master/README.md",
         start: 71
       },
       {
@@ -81,6 +81,10 @@ Links.main = [
       {
         title: "Algorithms",
         url: "https://github.com/appacademy/algorithms-curriculum",
+      },
+      {
+        title: "Backbone",
+        url: "https://github.com/appacademy/backbone-curriculum/blob/master/README.md"
       },
       {
         title: "CSS",
@@ -174,16 +178,16 @@ Links.main = [
         url: "http://api.jquery.com/",
       },
       {
-        title: "Backbone",
-        url: "http://backbonejs.org/",
-      },
-      {
         title: "Jbuilder",
         url: "https://github.com/rails/jbuilder#jbuilder",
       },
       {
         title: "React",
         url: "https://facebook.github.io/react/docs/getting-started.html",
+      },
+      {
+        title: "Backbone",
+        url: "http://backbonejs.org/",
       }
     ]
   },

@@ -1,4 +1,6 @@
-var smile = function(){
+"use strict";
+
+var smile = function smile() {
   var $html = $("<b>:)</b>");
 
   $html.css({
@@ -13,13 +15,13 @@ var smile = function(){
   $("body").append($html);
 };
 
-var insertDeskHash = function(){
-  chrome.storage.local.get("deskHash", function(storage){
+var insertDeskHash = function insertDeskHash() {
+  chrome.storage.local.get("deskHash", function (storage) {
     $("input.desk-hash").val(storage.deskHash);
   });
 };
 
-$(document).ready(function(){
+$(document).ready(function () {
   smile();
   insertDeskHash();
 });
