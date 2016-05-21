@@ -23,27 +23,27 @@ Links.main = [{
   title: "Curriculum",
   links: [{
     title: "Ruby",
-    url: "https://github.com/appacademy/ruby-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/curriculum/blob/master/ruby",
     start: 11
   }, {
     title: "SQL",
-    url: "https://github.com/appacademy/sql-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/curriculum/blob/master/sql",
     start: 31
   }, {
     title: "Rails",
-    url: "https://github.com/appacademy/rails-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/curriculum/blob/master/rails",
     start: 41
   }, {
     title: "JS",
-    url: "https://github.com/appacademy/js-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/curriculum/blob/master/javascript",
     start: 54
   }, {
     title: "React",
-    url: "https://github.com/appacademy/react-flux-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/curriculum/blob/master/react",
     start: 71
   }, {
     title: "Capstone",
-    url: "https://github.com/appacademy/capstone-project-curriculum/blob/master/README.md",
+    url: "https://github.com/appacademy/capstone-project-curriculum",
     start: 81
   }, {
     title: "Jobs",
